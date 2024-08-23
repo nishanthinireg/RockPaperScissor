@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RockPaperScissor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p>
+      <span class="highlight">R</span>ock <span class="highlight">P</span>aper
+      <span class="highlight">S</span>cissor
+    </p>
+    <div class="content">
+      <div class="images">
+        <img src="bg1.jpg" alt="" width="100%" height="498px" />
+      </div>
+      <div class="details">
+        <h1>Enter Your Details</h1>
+        <br />
+        <input
+          type="text"
+          placeholder="Enter User Name"
+          class="name"
+          name="name"
+          required
+        /><br /><br />
+        <input
+          type="number"
+          placeholder="Enter Number of Rounds"
+          class="round"
+          name="round"
+          required
+        />
+        <br /><br />
+        <button id="startGame">START</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
